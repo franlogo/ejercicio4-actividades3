@@ -1,4 +1,4 @@
-Los desarolladores necesitan gestionar el código de los proyectos en los cuales están trabajando.
+Los desarrolladores necesitan gestionar el código de los proyectos en los cuales están trabajando.
 Nos encontramos ante una realidad con escenarios en los que muchos profesionales incorporan código al
 proyecto, un código vivo, que puede cambiar una vez dado por finalizado o bien por peticiones de los
 clientes, adaptación al mercado, corrección de errores… Con estos cambios se van creando versiones, pero
@@ -12,6 +12,17 @@ generalmente:
  Mantener un cierto control de los cambios que se realizan sobre documentos, archivos o proyectos
 que comparten varias personas o un equipo de trabajo, por lo que es útil cuando se hace necesario
 saber qué cambios se hacen, quién los hace y cuándo se realizan.
+2. Terminologia
+Existeixen una sèrie de termes que s'utilitzen i són comuns per a la majoria de les eines de control de versions
+ Repositori: Lloc on s'emmagatzemen totes les dades i els canvis.
+ Revisió o versió: Una revisió és una versió concreta de les dades emmagatzemades.
+ Tag: Quan es crea una versió concreta en un moment determinat del desenvolupament d'un projecte se li posa una etiqueta, de manera que es puga localitzar i recuperar en qualsevol moment.
+ Tronc (trunk): Línia principal de desenvolupament d'un projecte.
+ Rama o ramificar (branch): Les branques són còpies d'arxius , carpetes o projectes. Quan es crea una branca es crea una bifurcació del projecte i es creen dues línies de desenvolupament.
+ Checkout: Crear una còpia de treball del projecte, o d'arxius i carpetes del repositori en l'equip local. Per defecte s'obté l'última versió, encara que també es pot indicar una versió concreta.
+ commit o checkin: Es realitza commit quan es confirmen els canvis realitzats en local per a integrar-los al repositori.
+ merge: Una fusió consisteix a unir els canvis realitzats sobre un o diversos arxius en una única revisió.
+ Conflicte: Ocorre en situacions en la qual el sistema no és capaç de fusionar els canvis (per exemple, dos usuaris han canviat la mateixa línia en el mateix moment). Aquest usuari haurà dé resoldre el conflicte combinant els canvis o triant un d'ells.
 
 1. Introducció
 Els desenvolupadors necessiten gestionar el codi dels projectes en els quals estan
